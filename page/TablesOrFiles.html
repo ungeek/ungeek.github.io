@@ -10,11 +10,11 @@
     <title>GLXY实训中心</title>
 
     <!-- Bootstrap core CSS -->
-<link href="bootstrap-4.5.0-dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="../bootstrap-4.5.0-dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Favicons -->
 <link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="img/GLXY.ico" sizes="32x32" type="image/png">
+<link rel="icon" href="../img/GLXY.ico" sizes="32x32" type="image/png">
 <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
 <link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">
 <link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
@@ -40,22 +40,22 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="css/jumbotron.css" rel="stylesheet">
+    <link href="../css/jumbotron.css" rel="stylesheet">
   </head>
   <body class="d-flex flex-column h-100">
     <header>
   <!-- Fixed navbar -->
 <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light"> 
-	<a class="navbar-left " href="gate.html">
-		<img src="img/7[162x50].png" alt="123">
+	<a class="navbar-left " href="../gate.html">
+		<img src="../img/7[162x50].png" alt="123">
 	</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> 
 	</button>
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active"> <a class="nav-link" href="gate.html">首页 <span class="sr-only">(current)</span></a> </li>
+      <li class="nav-item active"> <a class="nav-link" href="../gate.html">首页 <span class="sr-only">(current)</span></a> </li>
 		<li class="nav-item">
-        <a class="nav-link" href="about.html">关于</a>
+        <a class="nav-link" href="../about.html">关于</a>
       </li>
     </ul>
   </div>
@@ -64,38 +64,39 @@
 
 <!-- Begin page content -->
 <main role="main" class="flex-shrink-0">
-	  <div class="jumbotron bg-info">
-    <div class="container">
-      <h1 class="display-4 text-white">Glxy实训中心</h1>
-      <p class="text-white">实训室、实训软件、实训制度、实训相关表格、文件</p>
-    </div>
-  </div>
   <div class="container">
-        <div class="row">
-      <div class="col-md-6">
-        <h2>实训室</h2>
-        <p>管理学院所有实训室的地点、名称、照片等信息</p>
-        <p><a class="btn btn-secondary" href="./page/RoomInformation.html" role="button">详细 &raquo;</a></p>
-      </div>
-      <div class="col-md-6">
-        <h2>实训软件</h2>
-        <p>实训软件的名称、网址、供应商</p>
-        <p><a class="btn btn-secondary" href="./page/website.html" role="button">详细 &raquo;</a></p>
-      </div>
-    </div>
     <div class="row">
-      <div class="col-md-6">
-        <h2>实训制度</h2>
-        <p>实训室准则、注意事项</p>
-        <p><a class="btn btn-secondary" href="./page/RoomInformation.html" role="button">详细 &raquo;</a></p>
-      </div>
-      <div class="col-md-6">
-        <h2>实训相关表格或文件</h2>
-        <p>实训室使用申请、等</p>
-        <p><a class="btn btn-secondary" href="./page/TablesOrFiles.html" role="button">详细 &raquo;</a></p>
-      </div>
+	  <div class="col-6">
+		<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">文件</h5>
+    <p class="card-text">实验室借用表模板、调课表模板、软件使用登记表模板</p>
   </div>
-	</div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"><a href="../doc/rand23.docx">实验室借用表模板</a></li>
+    <li class="list-group-item"><a href="../doc/rand23.docx">调课表模板</a></li>
+    <li class="list-group-item"><a href="../doc/rand23.docx">软件使用登记表模板</a></li>
+  </ul>
+
+</div>
+		</div>
+		<div class="col-6">
+		<div class="card">
+  
+  <div class="card-body">
+    <h5 class="card-title">在线表格</h5>
+    <p class="card-text">实验室借用表格、调课表格、软件使用登记表格</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Cras justo odio</li>
+    <li class="list-group-item">Dapibus ac facilisis in</li>
+    <li class="list-group-item">Vestibulum at eros</li>
+  </ul>
+
+</div>
+		</div>
+	  </div>
+  </div>
 </main>
 
 <footer class="footer mt-auto py-3">
@@ -104,5 +105,5 @@
   </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="bootstrap-4.5.0-dist/js/bootstrap.bundle.min.js"></script></body>
+      <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../bootstrap-4.5.0-dist/js/bootstrap.bundle.min.js"></script></body>
 </html>
