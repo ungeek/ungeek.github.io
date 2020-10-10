@@ -1,2 +1,2 @@
 # ungeek.github.io
-you see what ?
+唉，被墙了
